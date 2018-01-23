@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="test" type="test" name="test" />
+  <test test-name="test1" pkg="test" type="../test/test_case.py" />
+</launch>
