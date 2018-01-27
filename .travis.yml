@@ -2,3 +2,9 @@
 language: python
 rvm:
    - 2.7
+
+
+install:
+  - git clone https://github.com/ros-industrial/industrial_ci.git .ci_config
+script:
+  - .ci_config/travis.sh

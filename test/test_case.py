@@ -7,7 +7,7 @@ import unittest
 
 class CaseA(unittest.TestCase):
     def runTest(self):
-        my_var=False
+        my_var=True
         
         self.assertTrue(my_var)
 
